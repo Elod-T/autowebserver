@@ -25,7 +25,8 @@ python main.py -name test
 ```
 Optional flags:
 - -autostart, after the image was created it starts a container with it
-- -export, after the image was created (and started) it exports the image to the main directory
+- -export, after the image was created it exports the image to the main directory
+- -noclean, after the image was created it doesn't clean up the temporary files
 ```
-python main.py -name test -autostart -export
+python main.py -name test -autostart -export -noclean
 ```
