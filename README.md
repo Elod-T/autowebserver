@@ -1,7 +1,7 @@
 # Automatically create a docker container from your existing website with SSL!
 
 ## Step 0:
-Make sure you have [docker](https://docs.docker.com/get-docker/) and [pyhton](https://www.python.org/downloads/) installed.
+Make sure you have [docker](https://docs.docker.com/get-docker/) and [python](https://www.python.org/downloads/) installed.
 
 ## Step 1:
 Clone this repo.
@@ -14,12 +14,12 @@ Put all of your html files inside the /html folder, and put your SSL certificate
 
 ## Step 3:
 Run main.py with your desired flags!
-```bash
+```sh
 python main.py -name test
 ```
 Optional flags:
 - -autostart, after the image was created it starts a container with it
 - -export, after the image was created (and started) it exports the image to the main directory
-```bash
+```python
 python main.py -name test -autostart -export
 ```
