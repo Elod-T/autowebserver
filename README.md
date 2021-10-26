@@ -10,9 +10,15 @@ git clone https://github.com/Elod044/autowebserver/
 ```
 
 ## Step 2:
-Put all of your html files inside the /html folder, and put your SSL certificate in the /ssl folder. If you don't have any the script will auto generate one for you!
+Install the required packages!
+```bash
+pip install requirements.txt
+```
 
 ## Step 3:
+Put all of your html files inside the /html folder, and put your SSL certificate in the /ssl folder. If you don't have any the script will auto generate one for you!
+
+## Step 4:
 Run main.py with your desired flags!
 ```
 python main.py -name test
