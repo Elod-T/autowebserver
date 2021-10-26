@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-n", "--name", help="your docker image's name")
 parser.add_argument("-a", "--autostart", help="autostart after created")
 parser.add_argument("-e", "--export", help="export the image after created")
-parser.add_argument("-nc", "--noclean", help="clean the temporary files after successful image creation")
+parser.add_argument("-nc", "--noclean", help="do not clean the temporary files after successful image creation")
 
 args = parser.parse_args()
 
