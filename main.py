@@ -82,7 +82,7 @@ print("Image successfully built!")
 
 if args.autostart:
     print("Starting container...")
-    os.system(f"docker run -dit --rm --name {args.name}-webserver -p 2080:80 -p 2443:443 {args.name}")
+    os.system(f"docker run -dit --rm --name {args.name}-webserver -p 80:80 -p 443:443 {args.name}")
     print("Container successfully started")
 
 if args.export:
