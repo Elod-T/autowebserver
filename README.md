@@ -18,8 +18,8 @@ Run main.py with your desired flags!
 python main.py -name test
 ```
 Optional flags:
-- - autostart, after the image was created it starts a container with it
-- - export, after the image was created (and started) it exports the image to the main directory
+- -autostart, after the image was created it starts a container with it
+- -export, after the image was created (and started) it exports the image to the main directory
 ```
 python main.py -name test -autostart -export
 ```
